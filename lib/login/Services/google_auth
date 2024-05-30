@@ -1,0 +1,52 @@
+import 'package:google_sign_in/google_sign_in.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart' as fb;
+
+class FirebaseServices {
+  final GoogleSignIn _googleSignIn = GoogleSignIn();
+
+// Initialize Firebase
+Future<void> initializeFirebase() async {
+  await fb.Firebase.initializeApp(
+    options: fb.FirebaseOptions(
+      apiKey: "AIzaSyBZxZbVDWSBGOa-MDyamLjiNO-8nbtNqtE",
+      authDomain: "flutter-project-b1202.firebaseapp.com",
+      projectId: "flutter-project-b1202",
+      storageBucket: "flutter-project-b1202.appspot.com",
+      messagingSenderId: "906655448771",
+      appId: "1:906655448771:web:87b469c7f9bc7ae8cf2c76"
+    )
+  );
+}
+
+  // Sign in with Google
+  Future<void> signInWithGoogle() async {
+    try {
+      // Initialize Firebase
+      await initializeFirebase();
+
+      // Create a GoogleAuthProvider instance
+      var provider = GoogleAuthProvider();
+
+      // Sign in with Google popup
+      var userCredential = await FirebaseAuth.instance.signInWithPopup(provider);
+
+      // Access user info
+      var user = userCredential.user;
+      if (user != null) {
+        print('User: ${user.displayName}');
+        print('Email: ${FirebaseAuth.instance.currentUser!.email}');
+        print('Photo URL: ${user.photoURL}');
+      } else {
+        print('User is null.');
+      }
+    } catch (e) {
+      print('Error signing in with Google: $e');
+    }
+  }
+
+  // Sign out from Google
+  Future<void> googleSignOut() async {
+    await _googleSignIn.signOut();
+  }
+}

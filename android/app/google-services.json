@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "796081286104",
+    "project_id": "dine-ease-fd1a8",
+    "storage_bucket": "dine-ease-fd1a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796081286104:android:bd61e5fa4f746fb974a0ad",
+        "android_client_info": {
+          "package_name": "com.example.fooddelivery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjroeLtj33spHFQh9rm3KScJlUT2JyCY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
