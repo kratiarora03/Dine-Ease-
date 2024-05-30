@@ -1,6 +1,6 @@
 # Dine-ease
 
-Dine-ease is a cross-platform mobile application developed using Flutter. It helps users discover nearby restaurants, browse their menus, read reviews, make reservations, and manage their profiles through secure login functionalities. By leveraging location services and Google Maps, Dine-ease provides an enhanced searchability of dining options. Efficient state management using the Provider package ensures responsive and seamless interactions. Additionally, Firebase is integrated for user authentication and secure data storage.
+Dine-ease is a cross-platform mobile application developed using Flutter. It helps users discover nearby restaurants, browse their menus, read reviews, make reservations, and manage their profiles through secure login functionalities. By leveraging location services and Google Maps, Dine-ease provides enhanced searchability of dining options. Efficient state management using the Provider package ensures responsive and seamless interactions. Additionally, Firebase is integrated for user authentication and secure data storage.
 
 ## Features
 
@@ -64,15 +64,30 @@ Dine-ease combines Flutter’s cross-platform capabilities with powerful feature
 
 ## Screenshots
 
-| Login Screen | Profile | FireBase Console |
-|:-----------:|:------------------:|:--------:|
-| ![Login Screen](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/4da6342d-df16-47d8-b609-76be4c0ce165) | ![Profile](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/e15a02df-67b6-4165-bccc-ceea96d8422e) | ![Firebase Console](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/13daeb65-935f-4229-8dc4-c9eb74dc5df1) |
+### Home Screen
+![Home Screen](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/78ae0cb9-fd76-434c-86a9-3cdaee2a0d5f)
 
-| HomeScreen |Restaurant Details| Location |
-|:--------------:|:-----------:|:-------------------:|
-| ![  Restaurant Details](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/74807140-1f26-4628-a64a-09e79719c15f) | ![Home Screen](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/e27535e8-7e4b-4931-a7bf-46d48ce9cd17) | ![Locaton](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/e52dce32-efc9-45cf-8952-7e49bfa47f27) |
+### Restaurant Details
+![Restaurant Details](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/9e120963-48dd-4d2e-b427-b6e9e94644ad)
 
-| Reservations Screen |
-|:--------------:|
-| ![Reservations Screen](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/9ea4f88f-2212-491b-8aa0-6c9a0c98fa3d) |
+### Map View
+![Map View](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/e1773031-ec04-4e57-8504-45e2fa259267)
+
+### Profile Screen
+![Profile Screen](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/dc64a5cb-aada-4dea-a8d0-06ffb8836bfc)
+
+### Menu Screen
+![Menu Screen](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/5538ca35-bc54-4649-9ca7-1f17fb98e8e1)
+
+### Reservations Screen
+![Reservations Screen](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/ce01b2b5-1375-47f2-abc5-c5e1cf1221d2)
+
+### Search Results
+![Search Results](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/7f105fe9-e7c8-4381-a514-ee6be975d874)
+
+### Another Profile Screen
+![Another Profile Screen](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/413a51af-7239-45a1-94a1-99969f596fc8)
+
+### Additional View
+![Additional View](https://github.com/kratiarora03/Dine-Ease-/assets/106904755/bab0ee01-94d5-47a9-a68b-ffd264a7c628)
 
